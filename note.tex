@@ -1,55 +1,135 @@
-\documentclass[a4paper]{article}  % Specifies the type of document you're writing (an article) and the paper size (A4).
+\documentclass[a4paper]{article}  
 
-\title{Competitive Programming Note}  % Sets the title of your document.
-\author{Moon Jam}  % Sets the author of your document.
-\date{\today}
+\newcommand{\Title}{Competitive Programming Note} 
+\newcommand{\Author}{Moon Jam} 
+\newcommand{\Date}{\today} 
 
-\usepackage[margin=1in]{geometry}  % Loads the geometry package, which allows you to easily change the margins of your document. Here, you're setting all margins to 1 inch.
-\usepackage{amsmath}  % Loads the amsmath package, which provides many useful features for typesetting math.
-\usepackage{fancyhdr}  % Loads the fancyhdr package, which allows you to customize the headers and footers of your document.
-\usepackage{graphicx}  % Loads the graphicx package, which allows you to include graphics in your document.
-\usepackage{cancel}  % Loads the cancel package, which provides commands for striking out terms in math mode.
-\usepackage{titlesec}  % Loads the titlesec package, which allows you to customize the formatting of section titles.
-\usepackage{titling}  % Loads the titling package, which allows you to customize the title of your document.
+\title{\Title} 
+\author{\Author} 
+\date{\Date}
+
+\usepackage[margin=1in]{geometry}  
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{fancyhdr}  
+\usepackage{graphicx}
+\usepackage{cancel} 
+\usepackage{titlesec}
+\usepackage{titling}
 \usepackage[hidelinks]{hyperref}
+\usepackage{CJKutf8} 
+\usepackage{abstract}
+\usepackage{indentfirst}
+\usepackage{listings}
 
-% Set up fancy header/footer
-\pagestyle{fancy}  % Changes the page style to fancy, which allows you to use the fancyhdr package to customize your headers and footers.
-\fancyhead[LO,L]{Moon Jam}  % Sets the left part of the header to "Moon Jam".
-\fancyhead[CO,C]{Competitive Programming Note}  % Sets the center part of the header to "Competitive Programming Note".
-\fancyhead[RO,R]{\today}  % Sets the right part of the header to the current date.
-\fancyfoot[LO,L]{}  % Leaves the left part of the footer empty.
-\fancyfoot[CO,C]{\thepage}  % Sets the center part of the footer to the current page number.
-\fancyfoot[RO,R]{}  % Leaves the right part of the footer empty.
-\renewcommand{\headrulewidth}{0.4pt}  % Changes the thickness of the horizontal line under the header.
-\renewcommand{\footrulewidth}{0.4pt}  % Changes the thickness of the horizontal line above the footer.
+\lstset{language=C++}
 
-% Customize the title
-\pretitle{\begin{center}\LARGE\bfseries\vspace*{\fill}}  % Before the title, start a centered environment, make the text large and bold, and add vertical space to center the title vertically.
-\posttitle{\end{center}\vskip 0.5em\vfill}  % After the title, end the centered environment, add a small vertical space, and add more vertical space to keep the title centered.
+\setlength{\parindent}{2em}
+
+\pagestyle{fancy}
+\fancyhead[LO,L]{\Author}
+\fancyhead[CO,C]{\Title}
+\fancyhead[RO,R]{\Date}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\pretitle{\begin{center}\LARGE\bfseries\vspace*{\fill}}
+\posttitle{\end{center}\vskip 0.5em\vfill}
 
 \begin{document}
+\begin{CJK*}{UTF8}{bkai}
 
-\maketitle
-% Remove the page number from the first page
-\thispagestyle{empty}
+    \maketitle
+    \thispagestyle{empty}
+    \newpage
 
-\newpage
+    \pagenumbering{roman}
 
-% Reset the page number to 1 for the table of contents
-\pagenumbering{arabic}
+    \newpage
 
-\tableofcontents
+    \tableofcontents
 
-\newpage
+    \newpage
 
-\section{Section 1}
-This is the first section.
+    \pagenumbering{arabic}
 
-\subsection{Subsection 1.1}
-This is the first subsection.
+    \newpage
+    \section{使用場景}
+    \begin{itemize}
+        \item 區間修改、區間查詢：線段樹＋懶人標記
+        \item 區間修改、單點查詢：BIT＋差分、線段樹＋懶人標記
+        \item 單點修改、區間查詢：線段樹、BIT
+        \item 區間修改、沒有查詢：差分
+        \item 區間查詢、沒有修改：前綴和、稀疏表
+    \end{itemize}
 
-\section{Section 2}
-This is the second section.
+    \newpage
+    \section{Segment Tree}
+    \lstinputlisting{./code/segment_tree.cpp}
 
+    \newpage
+    \section{Binary Indexed Tree}
+
+    \newpage
+    \section{Sparse Table}
+
+    \newpage
+    \section{莫隊}
+    \begin{itemize}
+        \item 可以離線處理(沒有修改)
+        \item 區間眾數、區間最大連續和、區間某個數字的數量
+    \end{itemize}
+    \href{https://atcoder.jp/contests/abc242/tasks/abc242_g}{Range Pairing Query}
+    \lstinputlisting{./code/Range Pairing Query.cpp}
+
+    \newpage
+    \section{DSU}
+
+    \newpage
+    \section{PBDS \& ROPE}
+    \lstinputlisting{./code/pbds.cpp}
+
+    \hrule
+
+    \lstinputlisting{./code/rope.cpp}
+
+
+    \newpage
+    \section{拓樸排序}
+
+
+    \newpage
+    \section{Floyd}
+
+
+    \newpage
+    \section{Dijkstra}
+
+
+    \newpage
+    \section{Bellman-Ford}
+
+
+    \newpage
+    \section{Prime}
+
+
+    \newpage
+    \section{Kruskal}
+
+
+    \newpage
+    \section{Tarjan}
+
+
+
+
+    \newpage
+    \section{凸包}
+
+
+\end{CJK*}
 \end{document}
