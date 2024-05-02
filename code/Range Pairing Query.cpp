@@ -1,8 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 int n, q, s;
-
 struct qu {
     int l, r, id;
     bool operator<(const qu &B) const {
@@ -14,16 +10,13 @@ struct qu {
 signed main() {
     cin >> n;
     vector<int> arr(n + 1);
-    for(int i = 1; i<=n; i++) cin >> arr[i];
+    for (int i = 1; i <= n; i++) cin >> arr[i];
     s = sqrt(n);
 
     cin >> q;
     vector<qu> qus(q);
-    for(int i = 0; i<q; i++) {
-        int a, b;
-        cin >> a >> b;
-        qus[i] = {a, b, i};
-    }
+    for (int i = 0; i < q; i++) 
+        cin >> qus[i].l >> qus[i].r, qus[i].id=i;
     sort(qus.begin(), qus.end());
 
     int l = 1, r = 1, p = 0;

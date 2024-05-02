@@ -72,6 +72,7 @@
 
     \newpage
     \section{Binary Indexed Tree}
+    \lstinputlisting{./code/BIT.cpp}
 
     \newpage
     \section{Sparse Table}
@@ -95,7 +96,6 @@
     \hrule
 
     \lstinputlisting{./code/rope.cpp}
-
 
     \newpage
     \section{拓樸排序}
@@ -124,8 +124,24 @@
     \newpage
     \section{Tarjan}
 
+    \newpage
+    \section{Kosaraju}
+    \lstinputlisting{./code/kosaraju.cpp}
+    \subsection{2-SAT}
+    Each pair ($a_i \lor b_i$) generates two edges: $\lnot a_i \rightarrow b_i$ and $\lnot b_i \rightarrow a_i$
+    \begin{enumerate}
+        \item find SCC of G (use kosaraju can find topological ordering at the same time)
+        \item for all $x$ : \\
+        　　if($x$ and $\lnot x$ in the same SCC) return IMPOSSIBLE
+        \item for all $x$ :\\
+        　　if(topological ordering $\lnot x > x$) set $x$ to true\\
+        　　else set $x$ to false
+    \end{enumerate}
 
+    \newpage
 
+    \section{Eulerian Path}
+    \lstinputlisting{./code/Eulerian_path.cpp}
 
     \newpage
     \section{凸包}
