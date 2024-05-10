@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.3)  1 MAY 2024 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.3)  4 MAY 2024 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -595,23 +595,23 @@ Overfull \hbox (63.03735pt too wide) in paragraph at lines 10--12
 ) (./code/rope.cpp
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [7] [8] [9] [10] [11] [12] [13] [14] (./code/kosaraju.cpp) [15] (./code/Eulerian_path.cpp) [16] [17] (./note.aux)
+) [7] [8] [9] [10] [11] [12] [13] [14] (./code/kosaraju.cpp) [15] (./code/Eulerian_path.cpp) (./code/Eulerian_path_one.cpp [16]) (./code/De Bruijn Sequence.cpp) [17] [18] (./note.aux)
 Package rerunfilecheck Info: File `note.out' has not changed.
-(rerunfilecheck)             Checksum: C40C2163D6D3164E27ADB84BE7424F18;1557.
+(rerunfilecheck)             Checksum: 97ADE3F420F31AD31AFF7F3DA7DAC3FC;1865.
  ) 
 Here is how much of TeX's memory you used:
- 14813 strings out of 477476
- 221843 string characters out of 5824245
+ 14905 strings out of 477476
+ 223385 string characters out of 5824245
  1918388 words of memory out of 5000000
- 34412 multiletter control sequences out of 15000+600000
- 536009 words of font info for 118 fonts, out of 8000000 for 9000
+ 34429 multiletter control sequences out of 15000+600000
+ 536873 words of font info for 121 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,76p,432b,2030s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,432b,2663s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/moonjam/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu55.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu61.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu77.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu86.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu88.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on note.pdf (19 pages, 289994 bytes).
+Output written on note.pdf (20 pages, 295474 bytes).
 PDF statistics:
- 779 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
- 285 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 351 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
